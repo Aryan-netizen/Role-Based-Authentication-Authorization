@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: backend-app
+  profiles:
+    active: dev
+server:
+  port: 8090

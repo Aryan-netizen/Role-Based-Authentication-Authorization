@@ -1,0 +1,19 @@
+server:
+  port: 8090
+
+# database Connections
+spring:
+  dataSource:
+    url: jdbc:mysql://localhost:3306/tatkal_auth
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+
+#    Jpa hibernate configurations
